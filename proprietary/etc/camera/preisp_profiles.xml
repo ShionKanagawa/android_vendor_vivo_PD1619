@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<!--
+    Sensor
+        id:   to distingulish sensor
+        name: just for debug
+     Global:
+         in_mipi_phy:  sensor connect to preisp
+         out_mipi_phy: preisp connect to ap
+         mipi_lane:    mipi lane
+         bayer:        bayer pattern
+      Resolution:
+          w:      width of image data
+          h:      height of image data
+          mipi_clk: mipi clk
+          line_length_pclk:
+          frame_length_lines:
+          mode: to distingulish same resolution
+        Vc:
+           w:  width of data
+           h:  height of data
+           di: data id, each vc channel must be different
+           decode_format: 0x2b(raw10)
+           flag : 1 (picture channel) 0 (normal channel) 2 (virtual channel)
+-->
+
+<PreispProfiles>
+		<!--
+    <Sensor id="0" name="IMX298">
+        <Global in_mipi_phy="0" out_mipi_phy="0" mipi_lane="4" bayer="gbrg"></Global>
+        <Resolution w="4608" h="3456" mipi_clk="1490000000" line_length_pclk="5604" frame_length_lines="3544" mode="0">
+            <Vc w="4608" h="3456" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+            <Vc w="4608" h="2" di="0x12" decode_format="0x2b" flag="0"></Vc>
+            <Vc w="4608" h="1" di="0x37" decode_format="0x2b" flag="2"></Vc>
+        </Resolution>
+        <Resolution w="2304" h="1728" mipi_clk="702000000" line_length_pclk="7160" frame_length_lines="3149" mode="0">
+            <Vc w="2304" h="1728" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+        </Resolution>        
+    </Sensor>
+    -->
+    <Sensor id="0" name="s5k2l7_pd1635">
+        <Global in_mipi_phy="0" out_mipi_phy="0" mipi_lane="4" bayer="gbrg"></Global>
+        <Resolution w="4032" h="3024" mipi_clk="1300000000" line_length_pclk="5232" frame_length_lines="3880" mode="0">
+            <Vc w="4032" h="3024" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+            <Vc w="4032" h="2" di="0x12" decode_format="0x2b" flag="0"></Vc>
+            <Vc w="4032" h="1" di="0x37" decode_format="0x2b" flag="2"></Vc>
+        </Resolution>
+        <Resolution w="2016" h="1512" mipi_clk="702000000" line_length_pclk="7160" frame_length_lines="3149" mode="0">
+            <Vc w="2016" h="1512" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+        </Resolution>
+        <Resolution w="2016" h="1136" mipi_clk="702000000" line_length_pclk="7776" frame_length_lines="4113" mode="0">
+            <Vc w="2016" h="1136" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+        </Resolution>
+        <Resolution w="1344" h="756" mipi_clk="900000000" line_length_pclk="7776" frame_length_lines="1028" mode="0">
+            <Vc w="1344" h="756" di="0x2b" decode_format="0x2b" flag="1"></Vc>           
+        </Resolution>
+    </Sensor>
+    <Sensor id="0" name="imx298_pd1635">
+        <Global in_mipi_phy="0" out_mipi_phy="0" mipi_lane="4" bayer="rggb"></Global>
+        <Resolution w="4608" h="3456" mipi_clk="1480000000" line_length_pclk="5450" frame_length_lines="3520" mode="0">
+            <Vc w="4608" h="3456" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+            <Vc w="4608" h="2" di="0x12" decode_format="0x2b" flag="0"></Vc>
+            <Vc w="4608" h="2" di="0x37" decode_format="0x2b" flag="2"></Vc>
+        </Resolution>
+        <Resolution w="2304" h="1728" mipi_clk="500000000" line_length_pclk="5536" frame_length_lines="1806" mode="0">
+            <Vc w="2304" h="1728" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+        </Resolution>
+        <Resolution w="2328" h="1304" mipi_clk="620000000" line_length_pclk="5536" frame_length_lines="1416" mode="0">
+            <Vc w="2328" h="1304" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+        </Resolution>
+		<Resolution w="1476" h="834" mipi_clk="1400000000" line_length_pclk="5536" frame_length_lines="902" mode="0">
+            <Vc w="2328" h="1304" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+        </Resolution>
+    </Sensor>
+    <Sensor id="1" name="imx376_pd1635">
+        <Global in_mipi_phy="2" out_mipi_phy="0" mipi_lane="4" bayer="rggb"></Global>
+        <Resolution w="2560" h="1920" mipi_clk="800000000" line_length_pclk="5224" frame_length_lines="2048" mode="0">
+            <Vc w="2560" h="1920" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+            <Vc w="2560" h="2" di="0x12" decode_format="0x2b" flag="0"></Vc>
+            <Vc w="2560" h="1"  di="0x37" decode_format="0x2b" flag="2"></Vc>
+        </Resolution>
+        <Resolution w="2560" h="1440" mipi_clk="800000000" line_length_pclk="5224" frame_length_lines="2048" mode="0">
+            <Vc w="2560" h="1440" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+            <Vc w="2560" h="2" di="0x12" decode_format="0x2b" flag="0"></Vc>
+            <Vc w="2560" h="2"  di="0x37" decode_format="0x2b" flag="2"></Vc>
+        </Resolution>
+    </Sensor>
+    <Sensor id="2" name="hi545_pd1635">
+        <Global in_mipi_phy="1" out_mipi_phy="1" mipi_lane="2" bayer="rggb"></Global>
+        <Resolution w="2560" h="1920" mipi_clk="900000000" line_length_pclk="2880" frame_length_lines="2016" mode="0">
+            <Vc w="2560" h="1920" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+            <Vc w="2560" h="2" di="0x37" decode_format="0x2b" flag="2"></Vc>
+        </Resolution>
+        <Resolution w="1280" h="960" mipi_clk="900000000" line_length_pclk="2880" frame_length_lines="2016" mode="0">
+            <Vc w="1280" h="960" di="0x2b" decode_format="0x2b" flag="1"></Vc>
+        </Resolution>
+    </Sensor>
+</PreispProfiles>
