@@ -126,8 +126,21 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.mbn:system/etc/firmware/vivokeymaster.mbn \
     vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.mdt:system/etc/firmware/vivokeymaster.mdt \
     vendor/vivo/PD1619/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/vivo/PD1619/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
+    vendor/vivo/PD1619/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/vivo/PD1619/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/vivo/PD1619/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
+    vendor/vivo/PD1619/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/vivo/PD1619/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/vivo/PD1619/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/vivo/PD1619/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
+    vendor/vivo/PD1619/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/hw/audio.primary.msm8952.so:system/lib/hw/audio.primary.msm8952.so \
+    vendor/vivo/PD1619/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
+    vendor/vivo/PD1619/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
+    vendor/vivo/PD1619/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
+    vendor/vivo/PD1619/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
+    vendor/vivo/PD1619/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/vivo/PD1619/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/vivo/PD1619/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
     vendor/vivo/PD1619/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
@@ -138,10 +151,15 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/vivo/PD1619/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/vivo/PD1619/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
+    vendor/vivo/PD1619/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/vivo/PD1619/proprietary/lib/libebtc.so:system/lib/libebtc.so \
+    vendor/vivo/PD1619/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/vivo/PD1619/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/vivo/PD1619/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/vivo/PD1619/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/vivo/PD1619/proprietary/lib/libpreisp_camera.so:system/lib/libpreisp_camera.so \
+    vendor/vivo/PD1619/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
+    vendor/vivo/PD1619/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/vivo/PD1619/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/vivo/PD1619/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/vivo/PD1619/proprietary/lib/libvivo_camera_snapshot_zoom.so:system/lib/libvivo_camera_snapshot_zoom.so \
@@ -150,10 +168,17 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/vivo/PD1619/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.qti.hardware.factory@1.0.so:system/lib/vendor.qti.hardware.factory@1.0.so \
+    vendor/vivo/PD1619/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.vivo.hardware.bbkts@1.0.so:system/lib/vendor.vivo.hardware.bbkts@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.vivo.hardware.light@1.0.so:system/lib/vendor.vivo.hardware.light@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
+    vendor/vivo/PD1619/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/hw/audio.primary.msm8952.so:system/lib64/hw/audio.primary.msm8952.so \
+    vendor/vivo/PD1619/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
+    vendor/vivo/PD1619/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
+    vendor/vivo/PD1619/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
+    vendor/vivo/PD1619/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
+    vendor/vivo/PD1619/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/vivo/PD1619/proprietary/lib64/libOmxAacEnc.so:system/lib64/libOmxAacEnc.so \
     vendor/vivo/PD1619/proprietary/lib64/libOmxAmrEnc.so:system/lib64/libOmxAmrEnc.so \
     vendor/vivo/PD1619/proprietary/lib64/libOmxCore.so:system/lib64/libOmxCore.so \
@@ -164,14 +189,20 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/lib64/libOmxVenc.so:system/lib64/libOmxVenc.so \
     vendor/vivo/PD1619/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/vivo/PD1619/proprietary/lib64/libc2dcolorconvert.so:system/lib64/libc2dcolorconvert.so \
+    vendor/vivo/PD1619/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/vivo/PD1619/proprietary/lib64/libebtc.so:system/lib64/libebtc.so \
+    vendor/vivo/PD1619/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
+    vendor/vivo/PD1619/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/vivo/PD1619/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
+    vendor/vivo/PD1619/proprietary/lib64/libqdMetaData.system.so:system/lib64/libqdMetaData.system.so \
+    vendor/vivo/PD1619/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/vivo/PD1619/proprietary/lib64/libsensor_reg.so:system/lib64/libsensor_reg.so \
     vendor/vivo/PD1619/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
     vendor/vivo/PD1619/proprietary/lib64/soundfx/libqcompostprocbundle.so:system/lib64/soundfx/libqcompostprocbundle.so \
     vendor/vivo/PD1619/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
     vendor/vivo/PD1619/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.qti.hardware.factory@1.0.so:system/lib64/vendor.qti.hardware.factory@1.0.so \
+    vendor/vivo/PD1619/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.vivo.hardware.bbkts@1.0.so:system/lib64/vendor.vivo.hardware.bbkts@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.vivo.hardware.light@1.0.so:system/lib64/vendor.vivo.hardware.light@1.0.so \
     vendor/vivo/PD1619/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
@@ -198,6 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/vivo/PD1619/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/vivo/PD1619/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
+    vendor/vivo/PD1619/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
     vendor/vivo/PD1619/proprietary/vendor/bin/init.qcom.sensors.sh:system/vendor/bin/init.qcom.sensors.sh \
     vendor/vivo/PD1619/proprietary/vendor/bin/init.vivo.fingerprint.sh:system/vendor/bin/init.vivo.fingerprint.sh \
     vendor/vivo/PD1619/proprietary/vendor/bin/init.vivo.fingerprint_restart_counter.sh:system/vendor/bin/init.vivo.fingerprint_restart_counter.sh \
@@ -319,6 +351,7 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/lib-siputility.so:system/vendor/lib/lib-siputility.so \
+    vendor/vivo/PD1619/proprietary/vendor/lib/lib-uceservice.so:system/vendor/lib/lib-uceservice.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
@@ -805,6 +838,7 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/lib-siputility.so:system/vendor/lib64/lib-siputility.so \
+    vendor/vivo/PD1619/proprietary/vendor/lib64/lib-uceservice.so:system/vendor/lib64/lib-uceservice.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
@@ -971,7 +1005,17 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.vivo.hardware.camera.provider@1.0_vendor.so:system/vendor/lib64/vendor.vivo.hardware.camera.provider@1.0_vendor.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.vivo.hardware.camera.vif@1.0_vendor.so:system/vendor/lib64/vendor.vivo.hardware.camera.vif@1.0_vendor.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.vivo.hardware.camera.vivodevice@1.0_vendor.so:system/vendor/lib64/vendor.vivo.hardware.camera.vivodevice@1.0_vendor.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.vivo.hardware.wifiap@1.0_vendor.so:system/vendor/lib64/vendor.vivo.hardware.wifiap@1.0_vendor.so
+    vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.vivo.hardware.wifiap@1.0_vendor.so:system/vendor/lib64/vendor.vivo.hardware.wifiap@1.0_vendor.so \
+    vendor/vivo/PD1619/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
-    libantradio
+    libantradio \
+    QtiTelephonyService \
+    ims \
+    imssettings \
+    uceShimService \
+    qcrilmsgtunnel \
+    QtiTelephonyServicelibrary \
+    qcrilhook \
+    qti-telephony-common \
+    qti-vzw-ims-internal
