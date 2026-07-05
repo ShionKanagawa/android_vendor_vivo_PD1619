@@ -16,6 +16,44 @@
 
 PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/bin/ebtables:system/bin/ebtables \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_General_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_General_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Global_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Global_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Handset_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Handset_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Hdmi_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Hdmi_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Headset_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Headset_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Speaker_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Speaker_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_General_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_General_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb:system/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/PD1619/Bluetooth_cal.acdb:system/etc/acdbdata/PD1619/Bluetooth_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/PD1619/General_cal.acdb:system/etc/acdbdata/PD1619/General_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/PD1619/Global_cal.acdb:system/etc/acdbdata/PD1619/Global_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/PD1619/Handset_cal.acdb:system/etc/acdbdata/PD1619/Handset_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/PD1619/Hdmi_cal.acdb:system/etc/acdbdata/PD1619/Hdmi_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/PD1619/Headset_cal.acdb:system/etc/acdbdata/PD1619/Headset_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/PD1619/Speaker_cal.acdb:system/etc/acdbdata/PD1619/Speaker_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/PD1619/workspaceFile.qwsp:system/etc/acdbdata/PD1619/workspaceFile.qwsp \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/vivo/PD1619/proprietary/etc/audio_platform_info.xml:system/etc/audio_platform_info.xml \
+    vendor/vivo/PD1619/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
     vendor/vivo/PD1619/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/vivo/PD1619/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/vivo/PD1619/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
