@@ -207,6 +207,7 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.qti.hardware.factory@1.0.so:system/lib/vendor.qti.hardware.factory@1.0.so \
+    vendor/vivo/PD1619/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.vivo.hardware.bbkts@1.0.so:system/lib/vendor.vivo.hardware.bbkts@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.vivo.hardware.light@1.0.so:system/lib/vendor.vivo.hardware.light@1.0.so \
@@ -242,6 +243,7 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.qti.hardware.factory@1.0.so:system/lib64/vendor.qti.hardware.factory@1.0.so \
+    vendor/vivo/PD1619/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.vivo.hardware.bbkts@1.0.so:system/lib64/vendor.vivo.hardware.bbkts@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.vivo.hardware.light@1.0.so:system/lib64/vendor.vivo.hardware.light@1.0.so \
@@ -374,6 +376,9 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/sensors.msm8952_64.so:system/vendor/lib/hw/sensors.msm8952_64.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/sound_trigger.primary.msm8952.so:system/vendor/lib/hw/sound_trigger.primary.msm8952.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
+    vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
+    vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.qti.hardware.factory@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.factory@1.0-impl.so \
+    vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.vivo.hardware.bbkts@1.0-impl.so:system/vendor/lib/hw/vendor.vivo.hardware.bbkts@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.vivo.hardware.camera.provider@1.0-impl.so:system/vendor/lib/hw/vendor.vivo.hardware.camera.provider@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.vivo.hardware.camera.vif@1.0-impl.so:system/vendor/lib/hw/vendor.vivo.hardware.camera.vif@1.0-impl.so \
@@ -866,6 +871,9 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/sensors.msm8952_64.so:system/vendor/lib64/hw/sensors.msm8952_64.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
+    vendor/vivo/PD1619/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
+    vendor/vivo/PD1619/proprietary/vendor/lib64/hw/vendor.qti.hardware.factory@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.factory@1.0-impl.so \
+    vendor/vivo/PD1619/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/vendor.vivo.hardware.bbkts@1.0-impl.so:system/vendor/lib64/hw/vendor.vivo.hardware.bbkts@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/vendor.vivo.hardware.camera.provider@1.0-impl.so:system/vendor/lib64/hw/vendor.vivo.hardware.camera.provider@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/vendor.vivo.hardware.camera.vif@1.0-impl.so:system/vendor/lib64/hw/vendor.vivo.hardware.camera.vif@1.0-impl.so \
