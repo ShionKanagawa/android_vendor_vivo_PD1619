@@ -154,15 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/vivo/PD1619/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/vivo/PD1619/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.b00:system/etc/firmware/vivokeymaster.b00 \
-    vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.b01:system/etc/firmware/vivokeymaster.b01 \
-    vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.b02:system/etc/firmware/vivokeymaster.b02 \
-    vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.b03:system/etc/firmware/vivokeymaster.b03 \
-    vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.b04:system/etc/firmware/vivokeymaster.b04 \
-    vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.b05:system/etc/firmware/vivokeymaster.b05 \
-    vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.b06:system/etc/firmware/vivokeymaster.b06 \
-    vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.mbn:system/etc/firmware/vivokeymaster.mbn \
-    vendor/vivo/PD1619/proprietary/etc/firmware/vivokeymaster.mdt:system/etc/firmware/vivokeymaster.mdt \
     vendor/vivo/PD1619/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/vivo/PD1619/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/vivo/PD1619/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -252,8 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/vivo/PD1619/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/vivo/PD1619/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:system/vendor/bin/hw/android.hardware.camera.provider@2.4-service \
-    vendor/vivo/PD1619/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:system/vendor/bin/hw/android.hardware.gatekeeper@1.0-service \
-    vendor/vivo/PD1619/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service:system/vendor/bin/hw/android.hardware.keymaster@3.0-service \
     vendor/vivo/PD1619/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:system/vendor/bin/hw/android.hardware.sensors@1.0-service \
     vendor/vivo/PD1619/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
     vendor/vivo/PD1619/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
@@ -305,8 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/vivo/PD1619/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
     vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:system/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc \
-    vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:system/vendor/etc/init/android.hardware.keymaster@3.0-service.rc \
     vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:system/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc \
     vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:system/vendor/etc/init/android.hardware.sensors@1.0-service.rc \
     vendor/vivo/PD1619/proprietary/vendor/etc/init/init.vivo.fingerprint.rc:system/vendor/etc/init/init.vivo.fingerprint.rc \
@@ -840,8 +827,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:system/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:system/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:system/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl.so:system/vendor/lib64/hw/android.hardware.sensors@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/audio.r_submix.default.so:system/vendor/lib64/hw/audio.r_submix.default.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/audio.usb.default.so:system/vendor/lib64/hw/audio.usb.default.so \
@@ -930,7 +915,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/libkeymasterprovision.so:system/vendor/lib64/libkeymasterprovision.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libktv_qcom.so:system/vendor/lib64/libktv_qcom.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
