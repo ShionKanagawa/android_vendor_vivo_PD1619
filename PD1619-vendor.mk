@@ -205,7 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
     vendor/vivo/PD1619/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/vivo/PD1619/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/vivo/PD1619/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.qti.hardware.factory@1.0.so:system/lib/vendor.qti.hardware.factory@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
@@ -241,7 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/lib64/soundfx/libqcompostprocbundle.so:system/lib64/soundfx/libqcompostprocbundle.so \
     vendor/vivo/PD1619/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
     vendor/vivo/PD1619/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
-    vendor/vivo/PD1619/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.qti.hardware.factory@1.0.so:system/lib64/vendor.qti.hardware.factory@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/vivo/PD1619/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
@@ -289,7 +287,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/vivo/PD1619/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/vivo/PD1619/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
-    vendor/vivo/PD1619/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/vivo/PD1619/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/vivo/PD1619/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/vivo/PD1619/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
@@ -308,9 +305,9 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/vivo/PD1619/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
     vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:system/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc \
     vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:system/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:system/vendor/etc/init/android.hardware.keymaster@3.0-service.rc \
+    vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:system/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc \
     vendor/vivo/PD1619/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:system/vendor/etc/init/android.hardware.sensors@1.0-service.rc \
     vendor/vivo/PD1619/proprietary/vendor/etc/init/init.vivo.fingerprint.rc:system/vendor/etc/init/init.vivo.fingerprint.rc \
     vendor/vivo/PD1619/proprietary/vendor/etc/init/rild.rc:system/vendor/etc/init/rild.rc \
@@ -363,7 +360,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib/hw/android.hardware.gnss@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl.so:system/vendor/lib/hw/android.hardware.sensors@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/audio.r_submix.default.so:system/vendor/lib/hw/audio.r_submix.default.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/audio.usb.default.so:system/vendor/lib/hw/audio.usb.default.so \
@@ -372,7 +368,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/fpc_1245.default.so:system/vendor/lib/hw/fpc_1245.default.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/sensors.msm8952_64.so:system/vendor/lib/hw/sensors.msm8952_64.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/sound_trigger.primary.msm8952.so:system/vendor/lib/hw/sound_trigger.primary.msm8952.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.qti.hardware.factory@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.factory@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
@@ -615,8 +610,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib/libgnsspps.so:system/vendor/lib/libgnsspps.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib/libgps.utils.so:system/vendor/lib/libgps.utils.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -631,12 +624,8 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib/libloc_core.so:system/vendor/lib/libloc_core.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib/libloc_pla.so:system/vendor/lib/libloc_pla.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib/libloc_stub.so:system/vendor/lib/libloc_stub.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib/liblocation_api.so:system/vendor/lib/liblocation_api.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
@@ -806,7 +795,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
@@ -853,7 +841,6 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:system/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:system/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.gnss@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:system/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl.so:system/vendor/lib64/hw/android.hardware.sensors@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/hw/audio.r_submix.default.so:system/vendor/lib64/hw/audio.r_submix.default.so \
@@ -937,8 +924,7 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libfingerpint_analysis.so:system/vendor/lib64/libfingerpint_analysis.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/libgnsspps.so:system/vendor/lib64/libgnsspps.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/libgps.utils.so:system/vendor/lib64/libgps.utils.so \
+    vendor/vivo/PD1619/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
@@ -951,12 +937,8 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/libloc_core.so:system/vendor/lib64/libloc_core.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/libloc_pla.so:system/vendor/lib64/libloc_pla.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/libloc_stub.so:system/vendor/lib64/libloc_stub.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/liblocation_api.so:system/vendor/lib64/liblocation_api.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
@@ -1023,7 +1005,7 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
-    vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:system/vendor/lib64/vendor.qti.gnss@1.0.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
