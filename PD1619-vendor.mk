@@ -321,6 +321,7 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/etc/media_profiles_V1_0.xml:system/vendor/etc/media_profiles_V1_0.xml \
     vendor/vivo/PD1619/proprietary/vendor/etc/media_profiles_vendor.xml:system/vendor/etc/media_profiles_vendor.xml \
     vendor/vivo/PD1619/proprietary/vendor/etc/tfa98xx_PD1619.cnt:system/vendor/etc/tfa98xx_PD1619.cnt \
+    vendor/vivo/PD1619/proprietary/vendor/etc/tfa98xx_PD1619.cnt:system/vendor/firmware/tfa98xx_PD1619.cnt \
     vendor/vivo/PD1619/proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/vivo/PD1619/proprietary/vendor/lib/camera.device@1.0-impl.so:system/vendor/lib/camera.device@1.0-impl.so \
     vendor/vivo/PD1619/proprietary/vendor/lib/camera.device@3.2-impl.so:system/vendor/lib/camera.device@3.2-impl.so \
