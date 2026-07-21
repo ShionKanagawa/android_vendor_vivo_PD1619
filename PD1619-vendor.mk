@@ -158,6 +158,9 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
     vendor/vivo/PD1619/proprietary/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
     vendor/vivo/PD1619/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/vivo/PD1619/proprietary/lib/libArcNote.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libArcNote.so \
+    vendor/vivo/PD1619/proprietary/lib/libNoteEngine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libNoteEngine.so \
+    vendor/vivo/PD1619/proprietary/lib/libNoteEngineLibrary.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libNoteEngineLibrary.so \
     vendor/vivo/PD1619/proprietary/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/vivo/PD1619/proprietary/lib/hw/audio.primary.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.msm8952.so \
     vendor/vivo/PD1619/proprietary/lib/libOmxAacEnc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxAacEnc.so \
@@ -175,7 +178,16 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmm-qcamera.so \
     vendor/vivo/PD1619/proprietary/lib/libpreisp_camera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpreisp_camera.so \
     vendor/vivo/PD1619/proprietary/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefrighthw.so \
+    vendor/vivo/PD1619/proprietary/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_dualcam_refocus.so \
+    vendor/vivo/PD1619/proprietary/lib/libarcsoft_noteengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_noteengine.so \
+    vendor/vivo/PD1619/proprietary/lib/libvivoPhotoFilter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvivoPhotoFilter.so \
+    vendor/vivo/PD1619/proprietary/lib/libvivoPhotoFilterJNI.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvivoPhotoFilterJNI.so \
     vendor/vivo/PD1619/proprietary/lib/libvivo_camera_snapshot_zoom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvivo_camera_snapshot_zoom.so \
+    vendor/vivo/PD1619/proprietary/lib/libvivophotoeditor_algo_rithm_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvivophotoeditor_algo_rithm_jni.so \
+    vendor/vivo/PD1619/proprietary/lib/libvivophotoeditor_algo_youtu_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvivophotoeditor_algo_youtu_jni.so \
+    vendor/vivo/PD1619/proprietary/lib/libvivophotoeditor_image_filter_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvivophotoeditor_image_filter_common.so \
+    vendor/vivo/PD1619/proprietary/lib/libvivophotoeditor_image_filter_cpu.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvivophotoeditor_image_filter_cpu.so \
+    vendor/vivo/PD1619/proprietary/lib/libvivophotoeditor_image_filter_gpu.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvivophotoeditor_image_filter_gpu.so \
     vendor/vivo/PD1619/proprietary/lib/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libqcompostprocbundle.so \
     vendor/vivo/PD1619/proprietary/lib/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libqcomvisualizer.so \
     vendor/vivo/PD1619/proprietary/lib/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libqcomvoiceprocessing.so \
@@ -952,6 +964,25 @@ PRODUCT_COPY_FILES += \
     vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.vivo.hardware.camera.vif@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.vivo.hardware.camera.vif@1.0_vendor.so \
     vendor/vivo/PD1619/proprietary/vendor/lib64/vendor.vivo.hardware.camera.vivodevice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.vivo.hardware.camera.vivodevice@1.0_vendor.so \
     vendor/vivo/PD1619/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+
+PRODUCT_COPY_FILES += \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libBaiduSpeechSDK.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libBaiduSpeechSDK.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libCameraJNICommonUtils.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libCameraJNICommonUtils.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libCameraShowYUV.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libCameraShowYUV.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libHistogram.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libHistogram.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libSThandDtNative.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libSThandDtNative.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libVivoWideSelfie.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libVivoWideSelfie.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libVivo_meiyan_resource.dat.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libVivo_meiyan_resource.dat.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libYUVSpliterJNI.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libYUVSpliterJNI.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libbdEASRAndroid_e2e.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libbdEASRAndroid_e2e.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libbd_easr_s1_merge_english.dat.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libbd_easr_s1_merge_english.dat.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libivw30.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libivw30.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libjni_camera_yuvutil.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libjni_camera_yuvutil.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libjni_jpegutil.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libjni_jpegutil.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libjni_scaleyuv.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libjni_scaleyuv.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libjni_tinyplanet.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libjni_tinyplanet.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/liblicense_baidu_duersdk_camera.data.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/liblicense_baidu_duersdk_camera.data.so \
+    vendor/vivo/PD1619/proprietary/priv-app/VivoCamera/lib/arm/libvivoIvw36.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/VivoCamera/lib/arm/libvivoIvw36.so
 
 PRODUCT_PACKAGES += \
     libantradio \

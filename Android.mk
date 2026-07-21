@@ -18,4 +18,16 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),PD1619)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := VivoCamera
+LOCAL_MODULE_OWNER := vivo
+LOCAL_SRC_FILES := proprietary/priv-app/VivoCamera/VivoCamera.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
 endif
